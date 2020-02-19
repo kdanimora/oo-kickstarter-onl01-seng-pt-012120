@@ -1,4 +1,8 @@
 class Project 
-  attr_reader 
+  attr_reader :backer 
+  
+  def initialization 
+  
+end 
   
 end 
