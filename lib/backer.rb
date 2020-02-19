@@ -7,7 +7,7 @@ class Backer
     @backed_projects = [] 
   end 
 
-def backed_project(project)
+def back_project(project)
   @backed_project.pusch(project)
   project.backers.push(self)
 end 
