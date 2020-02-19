@@ -12,4 +12,9 @@ def back_project(project)
   
 end 
 
+def add_backer(backer)
+  @backers.pusch(backer)
+  backer.backed_projects.push(self)
+end 
+
 end 
